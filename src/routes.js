@@ -11,7 +11,7 @@ routes.get('/', (req, res) => {
     //     url: "http://github.com/facebook/react-native"
     // });
 
-    res.send('Hello API Server Nodejs!');
+    res.send('Hello Heroku API Server Nodejs!');
 });
 
 
