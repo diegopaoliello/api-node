@@ -1,0 +1,24 @@
+Comandos Docker
+
+
+- docker : Exibe a lista de comando permitidas pelo Docker.
+- docker pull: Baixa imagem
+Ex: docker pull mongo
+
+- docker run: Cria container baseado em uma imagem
+Ex: docker run --name mongodb -p 27017:27017 -d mongo
+
+--name = nome container
+-p = redirecinamento de postar entre container e host
+-d = imagem do container
+
+
+- docker ps: Lista os containers instalados
+
+- docker star: Iniciar container
+Ex: docker start mongodb
+
+- docker stop mongodb: Interrompe execução do container
+Ex: docker stop mongodb
+
+
